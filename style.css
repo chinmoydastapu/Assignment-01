@@ -1,0 +1,33 @@
+/* Common styles */
+.text-description{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20%;
+}
+.button{
+    color: white;
+    font-size: 80%;
+    text-decoration: none;
+    padding: 1%;
+    background: linear-gradient(to right top, rgb(6, 213, 6), rgb(2, 155, 2));
+    border-radius: 4px;
+}
+.button-positioning{
+    padding: 3%;
+}
+/* Header section work */
+#header-section{
+    width: 100%;
+    background-image: url(images/header-img-01-01.jpeg);
+    background-repeat: no-repeat;
+}
+#header-content{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 10%;
+}
+#header-content h1{
+    margin: 0;
+}
