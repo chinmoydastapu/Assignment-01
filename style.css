@@ -87,9 +87,40 @@ body{
     border: none;
     font-size: 20px;
 }
-input:focus{
+input{
     outline: none;
 }
 input[type="text"]::placeholder{
     text-align: center;
+}
+
+/* our donate plan --------------*/
+.primary-card-measure{
+    padding: 5% 5% 5% 2%;
+    margin: 2%;
+    width: 360px;
+    height: 200px;
+    border-radius: 5px;
+}
+#donate-plan{
+    display: flex;
+    justify-content: center;
+}
+#donation-plan-flexing{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+#food{
+    background-color: #60a1a935;
+}
+#shelter{
+    background-color: #fd717136;
+}
+#education{
+    background-color: #f8e8bda3;
+}
+.card-blog-text{
+    color: gray;
 }
