@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Today</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
@@ -22,24 +24,31 @@
             </div>
         </div>
     </section>
-    <!-- Content-1 section starts  -->
-    <section id="donate-today-section">
-        <div id="donate-today-content">
-            <h1 class="title">Donate Today</h1>
-            <p class="blog-text-design">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corruptirepudiandaeveritatis
-                explicabo.</p>
+    <!-- Donate today section starts  -->
+    <section>
+        <div id="donate-today">
+            <div class="primary-header">
+                <h1 class="title">Donate Today</h1>
+                <p class="blog-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias libero
+                    veritatis quo vitae at perspiciatis nemo odio magni delectus.</p>
+            </div>
+        </div>
 
-            <div>
-                <p class="donation-amount-box">100tk</p>
-                <p class="donation-amount-box">200tk</p>
-                <p class="donation-amount-box" id="unique-donation-amount-box">500tk</p>
-                <p class="donation-amount-box">1000tk</p>
-                <p class="donation-amount-box">2000tk</p>
+        <div class="amount-box-container">
+            <div class="amount-boxes">
+                <p class="donate-amount-box">100tk</p>
+                <p class="donate-amount-box">200tk</p>
+                <p class="donate-amount-box" id="unique-box">500tk</p>
+                <p class="donate-amount-box">1000tk</p>
+                <p class="donate-amount-box">5000tk</p>
             </div>
-            <input type="text" placeholder="Other Amount (taka)"><hr>
-            <div class="button-positioning">
-                <a href="#" class="button">Donate Now</a>
-            </div>
+        </div>
+        <div id="input-taka">
+            <input type="text" placeholder="Other Amount(Taka)">
+        </div>
+        <hr>
+        <div class="button-positioning">
+            <a class="button" href="#">Donate Now</a>
         </div>
     </section>
 </body>
