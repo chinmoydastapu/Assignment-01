@@ -16,13 +16,14 @@ body{
     text-align: center;
 }
 .title{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
     margin-top: 15%;
 }
 .primary-header{
     width: 40%;
     text-align: center;
+    margin: auto;
 }
 .blog-text{
     color: gray;
@@ -38,7 +39,7 @@ body{
 }
 #header-content{
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     padding: 10%;
 }
@@ -123,4 +124,118 @@ input[type="text"]::placeholder{
 }
 .card-blog-text{
     color: gray;
+}
+
+/* dependency1 section ------------------*/
+#dependency1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 60px auto;
+}
+#dependency2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin: 60px auto;
+}
+.dependency-img1 img{
+    margin-left: 15%;
+}
+.dependency-img2 img{
+    margin-left: 15%;
+}
+.dependency2-texts{
+    margin-left: 15%;
+}
+
+/* Get updates section ----------*/
+.subscribe-btn{
+    text-decoration: none;
+    padding: 6px 20px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    border: none;
+    background: linear-gradient(to right top, rgb(6, 213, 6), rgb(2, 155, 2));
+    color: white;
+}
+.subscribe-section{
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.subscribe-section-container{
+    height: 50px;
+    margin-top: 20px;
+}
+.subscribe-section input{
+    padding: 10px 20px;
+    background-color: gainsboro;
+}
+
+.subscribe {border:0;outline:0;}
+.subscribe:focus {outline:none!important;}
+
+/*Bonus Section -------------*/
+.signup-container{
+    display: flex;
+    margin-top: 80px;
+}
+.width-dividing{
+    width: 50%;
+    margin: 30px;
+}
+.width-dividing form{
+    border-left: 5px solid orange;
+    border-radius: 20px;
+    margin-left: 10%;
+    width: 70%;
+    padding: 40px;
+    box-shadow: 10px 10px 30px grey;
+}
+.btn-styling{
+    background: linear-gradient(to right top, rgb(6, 213, 6), rgb(2, 155, 2));
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+.form-header{
+    margin-top: -5px;
+    color: orange;
+}
+#signup-contents{
+    margin-left: 5%;
+    margin-top: 15%;
+    width: 70%;
+    padding: 40px;
+}
+
+/* Footer section -------------*/
+footer{
+    text-align: center;
+    margin-top: 15%;
+    padding: 3%;
+    background-color: black;
+    color: whitesmoke;
+}
+footer h2{
+    color: rgb(174, 85, 229);
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Splash', cursive;
+    font-size: xx-large;
+}
+footer p{
+    font-size: 10px;
 }
